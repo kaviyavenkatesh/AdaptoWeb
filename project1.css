@@ -1,0 +1,770 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.div1 {
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: auto;
+}
+
+.navigation_bar {
+    background-color: rgba(158, 54, 63, 0.5);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.navbarcontents {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-right: 35px;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.navimg {
+    height: 50px;
+    width: 50px;
+}
+
+.navbaricons {
+    display: flex;
+}
+
+.fa {
+    margin-right: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+
+.content1 {
+    background-image: url("https://cdn.vectorstock.com/i/preview-1x/89/20/modern-maroon-backgrounds-3d-circle-papercut-vector-35088920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;   
+}
+
+
+#a1{
+    color: white;
+    padding-top: 300px;
+    opacity: 0.5;
+}
+#a1:hover{
+    opacity: 1;
+}
+.cimg1{
+    float: right;
+    height:620px;
+    width: 500px;
+    margin-right: 50px; 
+    margin-top: 30px;
+    padding-bottom: 30px;
+} 
+.text1{
+    margin-top: 25%;
+    margin-left: 10%;
+    font-size: 20px;
+    color: white;
+}
+.text2{
+    margin-left: 10%;
+    font-size: 80px;
+    color: white;
+}
+.text3{
+    margin-left: 10%;
+    font-size: 25px;
+    color: white;
+}
+.div1img {
+    float: right;
+    position: relative;
+    left: 400px; 
+    
+}
+
+@media screen and (max-width: 768px) {
+   
+    .content1 {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .cimg1 {
+        height: 450px;
+        float: none; 
+        width: 80%; 
+        margin: 20px; 
+    }
+
+    .text1{
+        margin-top: 50px;
+    }
+
+    .text1,
+    .text2,
+    .text3 {
+        margin-left: 20px; 
+    }
+    .navbaricons {
+        width: 100%;
+        justify-content: center;
+    }
+    
+}
+
+
+
+
+
+
+
+.div2 {
+    margin-top: 120px;
+}
+
+.btn1 {
+    padding: 10px;
+    width: 200px;
+    font-size: large;
+    margin-left: 10%;
+}
+
+.div2p1 {
+    font-size: 20px;
+    margin-left: 5%; 
+}
+
+.div2p2 {
+    font-size: 50px;
+    margin-left: 5%; 
+}
+
+.div2img {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.div2img > div {
+    flex: 0 0 calc(33.33% - 20px); /* Each item takes 33.33% of the container width with margin */
+    margin: 10px; 
+    text-align: center;
+}
+
+.div2img img {
+    width: 100%; /* Ensure images take full width of container */
+}
+
+.div2imgp {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .div2p1 {
+        font-size: 18px;
+    }
+
+    .div2p2 {
+        font-size: 40px; 
+    }
+
+    .div2img > div {
+        flex: 0 0 calc(50% - 20px); /* Each item takes 50% of the container width with margin */
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .div2img > div {
+        flex: 0 0 calc(70% - 20px); /* Each item takes 50% of the container width with margin */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .div2img > div {
+        flex: 0 0 calc(100% - 20px); /* Each item takes 100% of the container width with margin */
+    }
+}
+
+
+
+
+
+
+.div3img {
+    float: right;
+    height: 430px; 
+    width: 650px;
+}
+
+.div3content {
+    height: 430px;
+}
+
+.text4{
+    padding-top: 50px;
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.text5{
+    margin-left: 5%;
+    font-size: 50px;
+    color: white;
+}
+
+.text6{
+    margin-left: 10%;
+    font-size: 23px;
+    color: white;
+}
+
+.text7{
+    margin-left: 10%;
+    font-size: 20px;
+    color: white;
+}
+
+#r1 {
+    margin-top: 5px;
+}
+
+.arrow3 {
+    display: flex;
+    padding-left: 129px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#a4 {
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.div3 {
+    background-image: url("https://cdn.vectorstock.com/i/preview-1x/89/20/modern-maroon-backgrounds-3d-circle-papercut-vector-35088920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+    .div3img {
+        height: auto;
+        width: 100%;
+        float: none;
+    }
+    
+    .div3content {
+        padding-top: 0;
+        height: 430px; 
+        margin-top: 20px; 
+    }
+
+    .arrow3 {
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+.div4img{
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 90px;
+    width: 90px;
+    opacity: 0.2;
+    margin-left: 18px;
+    margin-right: 18px;
+
+}
+.div4img:hover{
+    opacity: 0.9;
+}
+
+
+
+
+.div5 {
+    background-color: rgb(238, 238, 238);
+}
+
+.div5txt1 {
+    padding-top: 70px;
+    font-size: 19px;
+}
+
+.div5txt {
+    margin-left: 50px;
+}
+
+.div5txt2 {
+    font-size: 45px;
+}
+
+.div5imgs {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.div5img {
+    height: 470px;
+    width: 400px;
+}
+
+.div5imgtxt1 {
+    font-size: 25px;
+}
+
+.div5imgtxt2 {
+    font-size: 21px;
+    width: 350px;
+}
+
+.div5imgtxt3 {
+    font-size: 18px;
+}
+
+.arrow4 {
+    display: flex;
+    text-align: center;
+}
+
+#a5 {
+    color: black;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+}
+
+#t1{
+    transform: rotate(90deg);
+    transform-origin: top right;
+    position: relative;
+    bottom: 110px;
+    color: black;
+    display: flex; 
+    align-items: right; 
+    left: 30px;
+}
+#t1::before{
+   content:''; 
+   position: relative;
+   width: 30px;
+   height: 1px;
+   top: 10px;
+   bottom: 10px;
+   display: flex;
+   background-color: gray;
+}
+
+@media (max-width: 768px) {
+    .div5imgs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div5img {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+
+.div6 {
+    display: flex;
+    margin-left: 100px;
+}
+
+#div6img {
+    margin-top: 70px;
+}
+
+.div6img {
+    width: 100px;
+    height: 100px;
+}
+
+.div6cls {
+    width: 280px;
+    text-align: center;
+}
+
+.div6txt1 {
+    font-size: 25px;
+}
+
+.div6txt2 {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .div6 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0; 
+    }
+    
+    #div6img {
+        margin-top: 20px; 
+    }
+
+    .div6img {
+        width: 80px; 
+        height: 80px;
+    }
+
+    .div6cls {
+        width: auto; 
+    }
+
+    .div6txt1 {
+        font-size: 20px; 
+    }
+
+    .div6txt2 {
+        font-size: 16px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div7 {
+    background-image: url("https://cdn.vectorstock.com/i/preview-1x/89/20/modern-maroon-backgrounds-3d-circle-papercut-vector-35088920.jpg");
+    background-size: cover;
+    height: 580px;
+}
+
+.div7img {
+    float: left;
+    height: 460px;
+    width: 660px;
+    padding-top: 5%;
+}
+
+.div7content {
+    margin-left: 55%;
+    padding-right: 5%;
+    padding-top: 13%;
+}
+
+.text8 {
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.text9 {
+    margin-left: 5%;
+    font-size: 50px;
+    color: white;
+}
+
+.text10 {
+    margin-left: 10%;
+    font-size: 23px;
+    color: white;
+}
+
+.text11 {
+    margin-left: 10%;
+    font-size: 20px;
+    color: white;
+}
+
+#r1 {
+    margin-top: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .div7 {
+        height: auto; 
+        padding-bottom: 50px; 
+    }
+
+    .div7img {
+        float: none; 
+        width: 100%; 
+        height: auto; 
+        margin-bottom: 20px;
+    }
+
+    .div7content {
+        margin-left: 0;
+        padding: 0 20px; 
+        text-align: center; 
+    }
+
+    .text8,
+    .text9,
+    .text10,
+    .text11 {
+        margin-left: 0; 
+    }
+}
+
+
+
+
+
+
+
+
+.div8 {
+    position: relative;
+}
+
+.div8image {
+    float: right;
+    left: 0%;
+}
+
+#div8img {
+    height: 600px;
+    width: 600px;
+}
+
+.div8range {
+    margin-bottom: 5px;
+    height: 5px;
+    background-color: black;
+}
+
+#div8range1 {
+    width: 95%;
+}
+
+#p1 {
+    padding-left: 73%;
+}
+
+#div8range2 {
+    width: 90%;
+}
+
+#p2 {
+    padding-left: 74%;
+}
+
+#div8range3 {
+    width: 85%;
+}
+
+#p3 {
+    padding-left: 82%;
+}
+
+.div8content {
+    padding-top: 100px;
+    padding-left: 10px;
+    width: 550px;
+    height: 520px;
+}
+
+.div8text {
+    font-size: 50px;
+}
+
+.div8txt1 {
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .div8image {
+        float: none;
+        margin: 0 auto;
+        display: block;
+        width: 80%; 
+    }
+
+    #div8img {
+        height: auto;
+        width: 100%;
+    }
+
+    .div8range,
+    .div8content {
+        width: 90%; 
+        padding: 0 10px; 
+    }
+
+    .div8content {
+        padding-top: 50px; 
+    }
+
+    .div8text {
+        font-size: 40px;
+    }
+
+    .div8txt1 {
+        font-size: 16px; 
+    }
+
+    #p1,
+    #p2,
+    #p3 {
+        padding-left: 80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.div9 {
+    background-color: rgb(29, 29, 31);
+}
+
+.div9cnt {
+    color: white;
+    margin-left: 40px;
+}
+
+#div9img {
+    height: 50px;
+    width: 50px;
+}
+
+.div9inline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+#div9t {
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.div9txt1 {
+    font-size: 50px;
+    padding-top: 40px;
+    width: 600px;
+}
+
+.div9txt2 {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.div9btn {
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .div9inline {
+        padding-top: 40px;
+    }
+
+    #div9t {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .div9txt1,
+    .div9txt2 {
+        width: auto;
+    }
+}
+
+.div10{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+.div10p{
+    opacity: 0.8;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
